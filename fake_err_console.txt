@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "daemon_hyro_bot.py", line 49, in <module>
+    with dc:
+  File "/usr/local/lib/python2.6/dist-packages/python_daemon-1.6-py2.6.egg/daemon/daemon.py", line 354, in __enter__
+    self.open()
+  File "/usr/local/lib/python2.6/dist-packages/python_daemon-1.6-py2.6.egg/daemon/daemon.py", line 346, in open
+    self.pidfile.__enter__()
+  File "build/bdist.linux-x86_64/egg/lockfile/__init__.py", line 226, in __enter__
+  File "build/bdist.linux-x86_64/egg/lockfile/pidlockfile.py", line 90, in acquire
+lockfile.LockFailed
